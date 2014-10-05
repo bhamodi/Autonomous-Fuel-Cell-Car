@@ -1,5 +1,5 @@
 /*
-NOTE TO THE USER: Specify course number before runtime. All 3 courses are in this file.
+    NOTE TO USER: Specify course number before runtime. All 3 courses are in this file.
 */
 
 #include "UW_eng.h"
@@ -21,7 +21,7 @@ void main() {
 }
 
 /*
-Drive function has automation and PID control logic for all 3 courses.
+    Drive function has automation and PID control logic for all 3 courses.
 */
 void drive(int courseNumber) {
     if (courseNumber == 1) {
@@ -105,7 +105,7 @@ void drive(int courseNumber) {
 }
 
 /*
-Function for testing left and right reflection sensor values on different surfaces.
+    Function for testing left and right reflection sensor values on different surfaces.
 */
 void testReflectionSensor(int &leftSensor, int &rightSensor) {
     leftSensor = getSensor(REFLECT_1);
