@@ -6,10 +6,9 @@
   A set of functions that will allow students to run the fuel cell
   car without knowing the microprocessor and interfacing details.
 
-  Students need to call initialize() as their first statement.  It turns
-  the watchdog timer off.  If they forget this statement, then the
-  processor will reset fairly quickly and the program will appear not
-  to run at all.
+  Be sure to call initialize() first. It turns the watchdog timer off. If
+  forgotten, the processor will reset fairly quickly and the program will
+  appear to not run at all.
 
   LEDs on the light bar are driven by a decoder, so only one can be on
   at any given time.
